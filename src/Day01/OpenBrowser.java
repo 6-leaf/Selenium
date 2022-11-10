@@ -20,8 +20,6 @@ public class OpenBrowser {
 
         System.out.println("Current URL = " + driver.getCurrentUrl());
 
-        // 5. 
         driver.quit();
     }
-
 }
