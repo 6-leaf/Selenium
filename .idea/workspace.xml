@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1db3e1c-3af8-4634-9d06-767b31443937" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumProjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day01/OpenBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice/ChromeBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice/FirefoxBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice/ParentBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice/TestBrowser.java" afterDir="false" />
+    <list default="true" id="c1db3e1c-3af8-4634-9d06-767b31443937" name="Changes" comment="Selenium">
+      <change afterPath="$PROJECT_DIR$/src/Day02/ManageMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day02/NavigateMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day02/SwitchTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day02/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day01/OpenBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day01/OpenBrowser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,17 +34,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/MEGA/Drivers & Jar Files/selenium-java-4.6.0/lib",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/MEGA/Drivers &amp; Jar Files/selenium-java-4.6.0/lib&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\MEGA\Selenium\SeleniumProjects\drivers" />
@@ -80,6 +73,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667958234986</updated>
     </task>
+    <task id="LOCAL-00001" summary="Selenium">
+      <created>1667965390706</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667965390706</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,5 +93,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Selenium" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium" />
   </component>
 </project>
