@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1db3e1c-3af8-4634-9d06-767b31443937" name="Changes" comment="Manage, Navigate, SwitchTo">
-      <change afterPath="$PROJECT_DIR$/src/Day02/Task2.java" afterDir="false" />
+    <list default="true" id="c1db3e1c-3af8-4634-9d06-767b31443937" name="Changes" comment="Task2">
+      <change afterPath="$PROJECT_DIR$/src/Day04/WebElementsFacebook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668103226369</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Task2">
+      <created>1668214734287</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668214734287</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +145,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Selenium" />
     <MESSAGE value="Manage, Navigate, SwitchTo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Manage, Navigate, SwitchTo" />
+    <MESSAGE value="Task2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task2" />
   </component>
 </project>
