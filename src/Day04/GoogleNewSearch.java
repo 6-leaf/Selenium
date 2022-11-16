@@ -11,7 +11,6 @@ public class GoogleNewSearch {
 
         driver.get("https://www.google.com");
         driver.findElement(By.name("q")).sendKeys("new search");
-        driver.findElement(By.tagName("Search")).click();
-
+        driver.findElement(By.name("q")).submit();
     }
 }
