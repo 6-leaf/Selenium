@@ -1,4 +1,4 @@
-package Day02;
+package Class02;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WindowType;
