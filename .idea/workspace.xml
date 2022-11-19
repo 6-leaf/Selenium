@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1db3e1c-3af8-4634-9d06-767b31443937" name="Changes" comment="Google New Search fixed">
-      <change afterPath="$PROJECT_DIR$/src/Class04/XpathDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day01/OpenBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class01/OpenBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day02/ManageMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class02/ManageMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day02/NavigateMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class02/NavigateMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day02/SwitchTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class02/SwitchTo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day02/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class02/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day02/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class02/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day04/GoogleNewSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class03/GoogleNewSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day04/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class03/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day04/WebElementsFacebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class03/WebElementsFacebook.java" afterDir="false" />
-    </list>
+    <list default="true" id="c1db3e1c-3af8-4634-9d06-767b31443937" name="Changes" comment="Xpath" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668611663831</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Xpath">
+      <created>1668809163863</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668809163863</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +157,7 @@
     <MESSAGE value="Selenium" />
     <MESSAGE value="Manage, Navigate, SwitchTo" />
     <MESSAGE value="Task2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task2" />
+    <MESSAGE value="Xpath" />
+    <option name="LAST_COMMIT_MESSAGE" value="Xpath" />
   </component>
 </project>
