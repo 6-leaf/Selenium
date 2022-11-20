@@ -21,11 +21,14 @@ public class XpathDemo {
         Thread.sleep(2000);
         driver.findElement(By.xpath("//a[contains(text(), 'Welcome')]")).click();
 
-        driver.navigate().to("https://exelentersdet.com/symfony/web/index.php/auth/logout");
+        Thread.sleep(2000);
+//        driver.navigate().to("https://exelentersdet.com/symfony/web/index.php/auth/logout");
+//        driver.findElement(By.xpath("//div[@id='welcome-menu']//a")).click();
+        driver.findElement(By.xpath("//a[starts-with(text(), 'Log')]")).click();
 
 
 
         Thread.sleep(2000);
-        driver.close();
+//        driver.close();
     }
 }
