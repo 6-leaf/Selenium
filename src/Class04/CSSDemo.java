@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class CSSDemo {
     private static String url = "https://exelentersdet.com/";
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver"); // window users add '.exe' at the end
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe"); // window users add '.exe' at the end
         WebDriver driver = new ChromeDriver();
         driver.get(url);
         // Note: Change all xPath locators with CSS Selectors:
@@ -32,6 +32,6 @@ public class CSSDemo {
         driver.findElement(By.cssSelector("#welcome-menu a")).click();
 
         Thread.sleep(2000);
-        driver.close();
+//        driver.close();
     }
 }
