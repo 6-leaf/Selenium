@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62f49cc6-04f8-45ae-bd1d-9c147122c96e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Class05/MoreCommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class06/GetAttributeMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class06/RadioButtons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class06/RadioButtons_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class04/CSSDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class04/CSSDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class06/RadioButtons_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class06/RadioButtons_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class06/RadioButtons_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +32,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Class06" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

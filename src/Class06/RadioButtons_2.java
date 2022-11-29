@@ -15,13 +15,13 @@ public class RadioButtons_2 {
         driver.get(url);
 
         WebElement chkbox3 = driver.findElement(By.cssSelector("input#checkbox-3"));
-
         System.out.println("Is checkbox3 enabled? : " + chkbox3.isEnabled());
+
+        WebElement chkbox1 = driver.findElement(By.cssSelector("input#checkbox-1"));
+        System.out.println("Is checkbox1 selected? : " + chkbox1.isSelected());
 
 
         Thread.sleep(2000);
         driver.close();
-
-
     }
 }
