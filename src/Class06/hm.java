@@ -19,10 +19,16 @@ public class hm {
         List<WebElement> colors = driver.findElements(By.name("color"));
         
         for (WebElement color : colors){
-            String value = color.getAttribute("value");
-            if (value.equalsIgnoreCase("Yellow") || value.equalsIgnoreCase("orange")){
+            String colorName = color.getAttribute("value");
+//            if (colorName.equalsIgnoreCase("Yellow") || colorName.equalsIgnoreCase("orange")){
+//                color.click();
+//                System.out.println("Color Name = " + colorName);
+//            }
+
+            while (colorName.equalsIgnoreCase("Yellow") || colorName.equalsIgnoreCase("orange")){
                 color.click();
-                System.out.println("value = " + value);
+                System.out.println("Color Name = " + colorName);
+                break;
             }
         }
 
