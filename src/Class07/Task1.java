@@ -12,7 +12,8 @@ public class Task1 {
     private static String url = "https://www.amazon.com";
 
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+//        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
         WebDriver driver  = new ChromeDriver();
         driver.get(url);
 
@@ -37,6 +38,5 @@ public class Task1 {
 
         Thread.sleep(2000);
         driver.close();
-
     }
 }
