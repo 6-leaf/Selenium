@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62f49cc6-04f8-45ae-bd1d-9c147122c96e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Class07/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class07/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class06/hm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class06/hm.java" afterDir="false" />
+    <list default="true" id="b28309e7-54dd-4823-a7ad-b4d966955051" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Class08/CarTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class08/Cars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class08/CarsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class08/Honda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class08/Tesla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class08/Toyota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class08/_01_IteratorIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Class08/_02_IteratorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,31 +30,25 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2ICN3fXZ2f0rCk0leZ3jaaXClLs" />
+  <component name="ProjectId" id="2II5wtrFPpM3xA7iaX9rR4ebwf9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Class06" />
-    </key>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="62f49cc6-04f8-45ae-bd1d-9c147122c96e" name="Changes" comment="" />
-      <created>1669681408569</created>
+      <changelist id="b28309e7-54dd-4823-a7ad-b4d966955051" name="Changes" comment="" />
+      <created>1669856500322</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1669681408569</updated>
+      <updated>1669856500322</updated>
     </task>
     <servers />
   </component>
