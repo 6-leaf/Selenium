@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b28309e7-54dd-4823-a7ad-b4d966955051" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Class08/CarTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class08/Cars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class08/CarsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class08/Honda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class08/Tesla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class08/Toyota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class08/_01_IteratorIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class08/_02_IteratorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="b28309e7-54dd-4823-a7ad-b4d966955051" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
