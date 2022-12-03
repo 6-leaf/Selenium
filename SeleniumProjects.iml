@@ -59,5 +59,15 @@
         <jarDirectory url="file://$MODULE_DIR$/../Drivers &amp; Jar Files/selenium-java-4.6.0/lib" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../Drivers &amp; Jar Files/poi-bin-5.2.3-20220909" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../Drivers &amp; Jar Files/poi-bin-5.2.3-20220909" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>
