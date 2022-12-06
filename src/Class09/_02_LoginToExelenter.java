@@ -20,7 +20,7 @@ public class _02_LoginToExelenter {
         String browser = properties.getProperty("browser");
 
         //new style switch
-        switch (browser) {
+        switch (browser.toLowerCase()) {
             case "chrome" -> {
                 System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
                 driver = new ChromeDriver();
