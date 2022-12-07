@@ -20,18 +20,29 @@ public class BaseClass {
         switch (ConfigsReader.getProperties("browser").toLowerCase()){
             case "chrome" -> {
                 System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH);
-                WebDriver driver = new ChromeDriver();
+                driver = new ChromeDriver();
             }
             case "firefox" -> {
                 System.setProperty("webdriver.geckodriver.driver", Constants.GECKO_DRIVER_PATH);
-                WebDriver driver = new FirefoxDriver();
+                driver = new FirefoxDriver();
             }
             case "edge" -> {
                 System.setProperty("webdriver.msedgedriver.driver", Constants.EDGE_DRIVER_PATH);
-                WebDriver driver = new EdgeDriver();
+                driver = new EdgeDriver();
             }
             default -> throw new RuntimeException("Browser is not supported");
         }
         driver.get(ConfigsReader.getProperties("url"));
+    }
+
+    public static void tearDown(){
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.getStackTrace();
+        }
+        if (driver!= null){
+            driver.quit();
+        }
     }
 }
