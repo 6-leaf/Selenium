@@ -10,9 +10,9 @@ public class BaseClass {
     public static WebDriver driver;
     public static void setUp(){
         // 1. way : Hard-Coding way (Not recommended).
-//        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
-//        WebDriver driver = new ChromeDriver();
-//        driver.get(url);
+        //System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+        //WebDriver driver = new ChromeDriver();
+        //driver.get(url);
 
         //2. Soft Coding(Recommended)
         ConfigsReader.loadProperties(Constants.CONFIGURATION_FILEPATH);
@@ -44,5 +44,9 @@ public class BaseClass {
         if (driver!= null){
             driver.quit();
         }
+    }
+
+    public static void loadTestFile(){
+        ConfigsReader.loadProperties(Constants.CONFIGURATION_FILEPATH);
     }
 }

@@ -1,10 +1,8 @@
 package Class10;
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.devtools.v85.layertree.model.StickyPositionConstraint;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -34,5 +32,24 @@ public class _01_Excel_Intro {
         // Task3: Get Phoenix
         Cell r2c2 = sheet.getRow(2).getCell(2);
         System.out.println(r2c2);
+
+        //2nd Way : Identifying cell data types using the .getCellType() method.
+        CellType r0c2DataType = sheet.getRow(0).getCell(2).getCellType();
+        System.out.println(r0c2DataType);
+
+        String stringCellValue = sheet.getRow(0).getCell(2).getStringCellValue();
+        System.out.println(stringCellValue);
+
+        // Task4: Get CA ZipCode Data Type
+        CellType r1c4DataType = sheet.getRow(1).getCell(4).getCellType();
+        System.out.println(r1c4DataType);
+
+        //How to find total number of the rows?
+        int physicalNumberOfRows = sheet.getPhysicalNumberOfRows();
+        System.out.println(physicalNumberOfRows);
+
+        //How to find total number of the columns?
+        short lastCellNum = sheet.getRow(0).getLastCellNum();
+        System.out.println(lastCellNum);
     }
 }
