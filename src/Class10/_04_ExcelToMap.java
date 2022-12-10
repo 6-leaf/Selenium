@@ -25,8 +25,15 @@ public class _04_ExcelToMap {
                 String key = sheet1.getRow(0).getCell(j).toString();
                 String value =sheet1.getRow(i).getCell(j).toString();
                 map.put(key, value);
+//                System.out.println(key + ":" + value);
             }
-            System.out.println(map);
+//            System.out.println(" ================== ");
+//            System.out.println(map);
+            Set<Map.Entry<String, String>> entries = map.entrySet();
+            for (Map.Entry entry : entries){
+                System.out.println(entry.getKey() + ":" + entry.getValue());
+            }
+            System.out.println();
         }
     }
 }
