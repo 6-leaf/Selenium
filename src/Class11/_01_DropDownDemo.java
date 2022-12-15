@@ -10,7 +10,7 @@ import static utils.BaseClass.*;
 
 public class _01_DropDownDemo {
     public static void main(String[] args) {
-        setUp();
+        setUp(); //https://selenium08.blogspot.com/2019/11/dropdown.html
 
         List<WebElement> elements = driver.findElements(By.cssSelector("*[name='country'] option "));
 
@@ -35,6 +35,12 @@ public class _01_DropDownDemo {
                 country.click();break;
             }
         }
+
+
+        WebElement monthDD = driver.findElement(By.cssSelector("*[name='Month']"));
+        Select month = new Select(monthDD);
+        System.out.println("Month is Multiple: " + month.isMultiple());
+
         tearDown();
     }
 }
