@@ -19,7 +19,8 @@ public class BaseClass {
 
         switch (ConfigsReader.getProperties("browser").toLowerCase()){
             case "chrome" -> {
-                System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH);
+//                System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH);
+                System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH_MAC);
                 driver = new ChromeDriver();
             }
             case "firefox" -> {
