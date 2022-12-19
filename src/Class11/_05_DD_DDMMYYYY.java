@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
+import java.util.List;
+
 import static utils.BaseClass.*;
 /*
 W: Go to this website https://vitalets.github.io/combodate/
@@ -25,6 +27,18 @@ public class _05_DD_DDMMYYYY {
         WebElement yearDD = driver.findElement(By.xpath("(//select[@class='year ']) [1]"));
         Select selectYearDD = new Select(yearDD);
         selectYearDD.selectByValue("1981");
+
+        //Loop through the dayDD, find a specific date, select it, and print it to the console
+        List<WebElement> dayList = selectDayDD.getOptions();
+        for (WebElement day : dayList){
+            String dayText = day.getText();
+            day.click();
+            if (dayText.equals("16")){
+                System.out.println(dayText);break;
+            }
+
+        }
+
 
 
         tearDown();
