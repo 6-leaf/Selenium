@@ -26,7 +26,7 @@ HW: Checkboxes & Radio Buttons
 
 public class HM_DifferentSolution {
     public static void main(String[] args) {
-        setUp(); //https://the-internet.herokuapp.com/
+        setUp("https://the-internet.herokuapp.com/");
 
         WebElement checkboxes = driver.findElement(By.linkText("Checkboxes"));
         checkboxes.click();

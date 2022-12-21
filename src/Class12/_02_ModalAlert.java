@@ -7,7 +7,7 @@ import static utils.BaseClass.*;
 
 public class _02_ModalAlert {
     public static void main(String[] args) {
-        setUp();  //https://demoqa.com/modal-dialogs
+        setUp("https://demoqa.com/modal-dialogs");
 
         WebElement modalAlert = driver.findElement(By.cssSelector("button#showSmallModal"));
         modalAlert.click();

@@ -15,7 +15,7 @@ and select your DOB (example: DD/MM/YYYY, "25/04/1985"), and exit the browser
 public class _05_DD_DDMMYYYY_Refactor {
 
     public static void main(String[] args) {
-        setUp();
+        setUp("https://vitalets.github.io/combodate/");
 
         findDay("16");
         findMonth(6);

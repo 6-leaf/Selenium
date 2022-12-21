@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BaseClass {
     public static WebDriver driver;
-    public static void setUp(){
+    public static void setUp(String url){
         // 1. way : Hard-Coding way (Not recommended).
         //System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         //WebDriver driver = new ChromeDriver();
@@ -19,8 +19,8 @@ public class BaseClass {
 
         switch (ConfigsReader.getProperties("browser").toLowerCase()){
             case "chrome" -> {
-                System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH);
-//                System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH_MAC);
+//                System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH);
+                System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH_MAC);
                 driver = new ChromeDriver();
             }
             case "firefox" -> {
@@ -33,7 +33,8 @@ public class BaseClass {
             }
             default -> throw new RuntimeException("Browser is not supported");
         }
-        driver.get(ConfigsReader.getProperties("url"));
+//        driver.get(ConfigsReader.getProperties("url"));
+        driver.get(url);
     }
 
     public static void tearDown(){

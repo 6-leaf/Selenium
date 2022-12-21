@@ -10,7 +10,7 @@ import static utils.BaseClass.*;
 
 public class _01_DropDownDemo {
     public static void main(String[] args) {
-        setUp(); //https://selenium08.blogspot.com/2019/11/dropdown.html
+        setUp("https://selenium08.blogspot.com/2019/11/dropdown.html");
 
         List<WebElement> elements = driver.findElements(By.cssSelector("*[name='country'] option "));
 

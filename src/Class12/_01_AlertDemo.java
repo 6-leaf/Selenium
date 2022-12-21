@@ -8,7 +8,7 @@ import static utils.BaseClass.*;
 
 public class _01_AlertDemo {
     public static void main(String[] args) {
-        setUp();  //https://selenium08.blogspot.com/2019/07/alert-test.html
+        setUp("https://selenium08.blogspot.com/2019/07/alert-test.html");
 
         //Handling Simple Alert
         WebElement simpleAlert = driver.findElement(By.cssSelector("input[id='simple']"));

@@ -16,7 +16,7 @@ HW: Check if 'United States of America' is present in the CountryDD,
 
 public class HM_Countries {
     public static void main(String[] args) {
-        setUp(); //https://selenium08.blogspot.com/2019/11/dropdown.html
+        setUp("https://selenium08.blogspot.com/2019/11/dropdown.html");
 
         WebElement countryDD = driver.findElement(By.cssSelector("select[name='country']"));
         Select select = new Select(countryDD);
