@@ -34,7 +34,9 @@ public class BaseClass {
             default -> throw new RuntimeException("Browser is not supported");
         }
 //        driver.get(ConfigsReader.getProperties("url"));
+        driver.manage().window().maximize();
         driver.get(url);
+
     }
 
     public static void tearDown(){
