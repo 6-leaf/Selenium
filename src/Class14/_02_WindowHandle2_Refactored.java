@@ -6,6 +6,7 @@ import utils.ConfigsReader;
 import java.util.Set;
 
 import static utils.BaseClass.*;
+import static utils.CommonMethods.*;
 
 public class _02_WindowHandle2_Refactored {
     public static void main(String[] args) {
@@ -34,20 +35,5 @@ public class _02_WindowHandle2_Refactored {
         tearDown();
     }
 
-    public static void switchToWindow(String windowTitle, Set<String> windows) {
-        for (String window : windows) {
-            String title = driver.switchTo().window(window).getTitle();
-            if (title.contains(windowTitle))
-                System.out.println("Window is found: " + driver.getTitle() + "\nURL is: " + driver.getCurrentUrl());
-        }
-    }
 
-    public static void switchToWindow(String windowTitle) {
-        Set<String> windows = driver.getWindowHandles();
-        for (String window : windows) {
-            String title = driver.switchTo().window(window).getTitle();
-            if (title.contains(windowTitle))
-                System.out.println("Window is found: " + driver.getTitle() + "\nURL is: " + driver.getCurrentUrl());
-        }
-    }
 }

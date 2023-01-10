@@ -6,6 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.time.Duration;
+
 public class BaseClass {
     public static WebDriver driver;
     public static void setUp(String url){
@@ -34,8 +36,10 @@ public class BaseClass {
             default -> throw new RuntimeException("Browser is not supported");
         }
 //        driver.get(ConfigsReader.getProperties("url"));
+
         driver.manage().window().maximize();
         driver.get(url);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
     }
 
