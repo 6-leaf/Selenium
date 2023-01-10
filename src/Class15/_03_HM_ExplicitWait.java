@@ -10,7 +10,7 @@ import java.time.Duration;
 
 import static utils.BaseClass.*;
 
-public class HM_ExplicitWait {
+public class _03_HM_ExplicitWait {
     public static void main(String[] args) {
         setUp("http://uitestpractice.com/students/contact");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
