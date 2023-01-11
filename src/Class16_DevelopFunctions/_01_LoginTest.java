@@ -13,10 +13,12 @@ public class _01_LoginTest {
 
         WebElement username = driver.findElement(By.id("txtUsername"));
         WebElement password = driver.findElement(By.id("txtPassword"));
+        WebElement loginButton = driver.findElement(By.id("btnLogin"));
 //        username.sendKeys("Admin");
 
         sendText(username, ConfigsReader.getProperties("username"));
         sendText(password, ConfigsReader.getProperties("password"));
+        clickButWaitForClickable(loginButton);
 
 
 
