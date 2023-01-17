@@ -21,7 +21,7 @@ public class _03_DropdownTest {
             }
         }
 
-        selectDdValue(months, "value", "Sept");
+        selectDdValue1(months, "x");
 
         tearDown();
     }

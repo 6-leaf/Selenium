@@ -22,8 +22,8 @@ public class _02_RadioOrCheckboxTest {
 //            }
 //        }
 
-        clickRadioOrCheckBox(colorList, "value", "YELLOW");
-        clickRadioOrCheckBox(browserList, "value", "mozilla");
+        clickRadioOrCheckBox(colorList, "YELLOW");
+        clickRadioOrCheckBox(browserList, "mozilla");
 
 
         tearDown();
