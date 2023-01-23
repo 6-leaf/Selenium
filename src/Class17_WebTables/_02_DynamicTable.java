@@ -2,35 +2,35 @@ package Class17_WebTables;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import utils.ConfigsReader;
 
-import java.util.Iterator;
 import java.util.List;
 
 import static utils.BaseClass.*;
 
-public class _01_WebTableDemo {
+public class _02_DynamicTable {
     public static void main(String[] args) {
-        setUp("https://the-internet.herokuapp.com/tables");
+        setUp("http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Default.aspx");
 
-        List<WebElement> tableRows = driver.findElements(By.cssSelector("table#table1 tbody tr"));
-        System.out.println("Number of Rows : " + tableRows.size());
+        WebElement username = driver.findElement(By.id("ctl00_MainContent_username"));
+        WebElement password = driver.findElement(By.id("ctl00_MainContent_password"));
+        WebElement login = driver.findElement(By.id("ctl00_MainContent_login_button"));
 
-        System.out.println("\n==== Print Rows ===");
-        Iterator<WebElement> iterator = tableRows.iterator();
-        while (iterator.hasNext()){
-            WebElement row = iterator.next();
-            System.out.println(row.getText());
+        username.sendKeys(ConfigsReader.getProperties("username"));
+        password.sendKeys(ConfigsReader.getProperties("password"));
+        login.click();
+
+        List<WebElement> rows = driver.findElements(By.cssSelector("table.SampleTable tbody tr"));
+        System.out.println("number of Rows : " + rows.size());
+
+        System.out.println("\n==== Getting rows without header ====\n");
+
+        for (int i = 1; i < rows.size(); i++) {
+            System.out.println(rows.get(i).getText());
         }
 
-        System.out.println("\n==== Print Rows in Another Way ===");
-        for (WebElement tableRow : tableRows) {
-            System.out.println(tableRow.getText());
-        }
-
-        System.out.println("\n==== Print Number of Columns ===");
-        List<WebElement> tableColumns = driver.findElements(By.xpath("//table[@id='table1']//th"));
-        System.out.println("Number of Columns : " + tableColumns.size());
-
+        List<WebElement> columns = driver.findElements(By.cssSelector("table.SampleTable tbody tr th"));
+        System.out.println("\nNumber of columns : " + columns.size());
 
 
         tearDown();

@@ -8,7 +8,7 @@ import java.util.List;
 
 import static utils.BaseClass.*;
 
-public class _02_DynamicTable {
+public class _03_DynamicTable {
     public static void main(String[] args) {
         setUp("http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Default.aspx");
 
@@ -20,19 +20,24 @@ public class _02_DynamicTable {
         password.sendKeys(ConfigsReader.getProperties("password"));
         login.click();
 
+
         List<WebElement> rows = driver.findElements(By.cssSelector("table.SampleTable tbody tr"));
         System.out.println("number of Rows : " + rows.size());
 
-        System.out.println("\n==== Getting rows without header ====\n");
+        String expectedValue = "Charles Dodgeson";
+        List<WebElement> actualValues = driver.findElements(By.cssSelector("table.SampleTable tbody tr td:nth-child(2)"));
 
-        for (int i = 1; i < rows.size(); i++) {
-            System.out.println(rows.get(i).getText());
+        WebElement deleteBtn = driver.findElement(By.id("ctl00_MainContent_btnDelete"));
+
+        for (int i = 1; i < actualValues.size(); i++) {
+            if (actualValues.get(i).getText().equalsIgnoreCase(expectedValue)){
+                driver.findElement(By.xpath("(//input[@type='checkbox'])[" + (i+1) + "]")).click();
+                deleteBtn.click();break;
+            }
         }
 
-        List<WebElement> columns = driver.findElements(By.cssSelector("table.SampleTable tbody tr th"));
-        System.out.println("\nNumber of columns : " + columns.size());
 
 
-        tearDown();
+//        tearDown();
     }
 }
