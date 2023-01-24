@@ -14,14 +14,14 @@ public class _04_TableWithoutTableTag {
 
         List<WebElement> columns = driver.findElements(By.cssSelector("div.rt-resizable-header-content"));
         System.out.println("Number of columns : " + columns.size());
-        columns.forEach(k-> System.out.println(k.getText()));
+        columns.forEach(k-> System.out.print(k.getText() + " | "));
 
         List<WebElement> rows = driver.findElements(By.cssSelector("div.rt-tr-group"));
-        System.out.println("Number of Rows : " + rows.size());
+        System.out.println("\nNumber of Rows : " + rows.size());
 
         int counter=0;
         for (WebElement row : rows) {
-            if (!row.getText().isBlank())
+            if (!row.getText().isBlank() && !row.getText().isEmpty())
                 counter++;
         }
         System.out.println("Total of non-blank rows : " + counter);
@@ -42,13 +42,24 @@ public class _04_TableWithoutTableTag {
 
         firstName.sendKeys(fname);
         lastName.sendKeys(lname);
-        userEmail.sendKeys(fname + "." + lname + "@gmail.com");
+        userEmail.sendKeys(fname.toLowerCase() + "." + lname.toLowerCase() + "@gmail.com");
         age.sendKeys("25");
         salary.sendKeys("99999");
         department.sendKeys("HR");
 
         WebElement submit = driver.findElement(By.id("submit"));
         submit.click();
+
+
+        rows = driver.findElements(By.cssSelector("div.rt-tr-group"));
+
+        counter=0;
+        for (WebElement row : rows) {
+            if (!row.getText().isBlank() && !row.getText().isEmpty())
+                counter++;
+        }
+        System.out.println("Total of non-blank rows : " + counter);
+
 
         tearDown();
     }

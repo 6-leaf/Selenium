@@ -35,9 +35,6 @@ public class _03_DynamicTable {
                 deleteBtn.click();break;
             }
         }
-
-
-
-//        tearDown();
+        tearDown();
     }
 }
